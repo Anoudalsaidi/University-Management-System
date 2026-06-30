@@ -44,7 +44,7 @@
               "RelativeDocumentMoniker": "University Management System\\Models\\Enrollment.cs",
               "ToolTip": "C:\\Users\\anoud\\OneDrive\\Desktop\\BackEnd\\University Management System\\University Management System\\University Management System\\Models\\Enrollment.cs",
               "RelativeToolTip": "University Management System\\Models\\Enrollment.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-06-30T08:36:45.129Z",
               "EditorCaption": ""
@@ -59,8 +59,7 @@
               "RelativeToolTip": "University Management System\\Models\\Instructor.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-30T08:36:04.04Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-30T08:36:04.04Z"
             },
             {
               "$type": "Document",
@@ -72,8 +71,7 @@
               "RelativeToolTip": "University Management System\\Models\\Department.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-30T08:36:20.421Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-30T08:36:20.421Z"
             },
             {
               "$type": "Document",
@@ -85,8 +83,7 @@
               "RelativeToolTip": "University Management System\\Models\\Course.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-30T08:36:32.885Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-30T08:36:32.885Z"
             },
             {
               "$type": "Document",
@@ -98,8 +95,7 @@
               "RelativeToolTip": "University Management System\\Models\\Student.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-30T08:35:50.829Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-30T08:35:50.829Z"
             },
             {
               "$type": "Document",
@@ -111,8 +107,7 @@
               "RelativeToolTip": "University Management System\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-30T06:11:41.121Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-30T06:11:41.121Z"
             }
           ]
         }
