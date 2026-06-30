@@ -4,4 +4,4 @@ A C# console project that models a University Management System using Entity Rel
 
 ## Entity Relationship Diagram (ERD)
 
-![University Management System ERD](erd/University-Management-System-ERD.png)
+![University Management System ERD](https://github.com/Anoudalsaidi/University-Management-System/blob/master/University-Management-System-ERD.png)
