@@ -8,6 +8,7 @@ namespace University_Management_System.Models
 {
     public class Enrollment
     {
+     //
         public int enrollmentId { get; set; }
         public int studentId { get; set; }
         public int courseId { get; set; }
