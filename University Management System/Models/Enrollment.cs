@@ -35,11 +35,18 @@ namespace University_Management_System.Models
         public DateTime enrollmentDate { get; set; } //user input
         
         [MaxLength(2)]
-        public string finalGrade { get; set; } //caculated
+        public string? finalGrade { get; set; } //caculated
         
         
         [Required]
         [MaxLength(20)]
         public EnrollmentStatus status { get; set; } // default  value
+
+
+        //RELATIONSHIPS WITH Student(many-one)
+        public Student student { get; set; } //Navigation Property
+
+        //RELATIONSHIPS WITH Course((many-one)
+        public Course course { get; set; } // Navigation Property
     }
 }

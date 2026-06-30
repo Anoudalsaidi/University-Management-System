@@ -35,7 +35,7 @@ namespace University_Management_System.Models
         public DateTime hireDate { get; set; } //user input
 
         [Required]
-        [Range(1,int.MaxValue)]
+        [Range(0.0000001, double.MaxValue)]
         public decimal salary { get; set; } //user input
 
 
@@ -43,5 +43,11 @@ namespace University_Management_System.Models
         [MaxLength(50)]
         public string academicTitle { get; set; } //user input
 
+
+        //RELATIONSHIPS WITH Department(one-one)
+        public Department HeadDepartment { get; set; } // Navigation Property
+
+        //RELATIONSHIPS WITH Course(one-many)
+        public List<Course> courses { get; set; } // Navigation Property
     }
 }

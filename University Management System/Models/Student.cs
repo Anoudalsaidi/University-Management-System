@@ -44,5 +44,9 @@ namespace University_Management_System.Models
 
         [Range(0.0,4.0)]
         public decimal gpa { get; set; } = 0.0m; //calculated
+
+
+        //RELATIONSHIPS WITH Enrollment(one-many)
+        public List<Enrollment> enrollments { get; set; } // Navigation Property
     }
 }

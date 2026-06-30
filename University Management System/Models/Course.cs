@@ -16,9 +16,8 @@ namespace University_Management_System.Models
         public int courseId { get; set; } // auto-generated
 
         [Required]
-        [Key]
         [MaxLength(10)]
-        public string courseCode { get; set; } // user input
+        public string courseCode { get; set; } // user input & unique
 
         [Required]
         [MaxLength(150)]
@@ -33,12 +32,24 @@ namespace University_Management_System.Models
         public int departmentId { get; set; } //Foreign Key
 
         [ForeignKey("Instructor")]
-        [Required]
         public int? instructorId { get; set; }  //Foreign Key
 
 
         [Required]
         [MaxLength(20)]
         public string semesterOffered { get; set; } //user input
+
+
+        //RELATIONSHIPS WITH Enrollment(one-many)
+        public List<Enrollment> enrollments { get; set; } // Navigation Property
+
+        //RELATIONSHIPS WITH Department(many-one)
+        public Department department { get; set; } // Navigation Property
+
+
+        //RELATIONSHIPS WITH Instructor(many-one)
+        public Instructor Instructor { get; set; } // Navigation Property
+
+
     }
 }

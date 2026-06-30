@@ -32,5 +32,15 @@ namespace University_Management_System.Models
 
         [ForeignKey("Instructor")]
         public int? headInstructorId { get; set; } //auto-generated
+
+
+        //RELATIONSHIPS WITH Course(one-many)
+        public List<Course> courses { get; set; } // Navigation Property
+
+
+        //RELATIONSHIPS WITH Instructor(one-one)
+        public Instructor Instructor { get; set; } // Navigation Property
+
+
     }
 }
