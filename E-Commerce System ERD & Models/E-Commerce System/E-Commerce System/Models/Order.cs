@@ -9,6 +9,12 @@ namespace E_Commerce_System.Models
    public class Order
     {
         public int orderId { get; set; }
-        public string orderDate { get; set; }
+        public int userId { get; set; }
+        public DateTime orderDate { get; set; }
+        public decimal totalAmount { get; set; }
+        public string status { get; set; }
+        public string shippingAddress { get; set; }
+        public string paymentMethod { get; set; }
+
     }
 }
