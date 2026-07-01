@@ -28,8 +28,20 @@ namespace E_Commerce_System.Models
         [Required]
         [Range(typeof(decimal), "0", "79228162514264337593543950335")] // this answer i git it from AI
         public decimal totalAmount { get; set; } //calculated
+
+
+        [Required]
+        [MaxLength(30))]
         public string status { get; set; } = "Pending";// Default value
+
+
+        [Required]
+        [MaxLength(300)]
         public string shippingAddress { get; set; } //user input
+
+
+        [Required]
+        [MaxLength(50)]
         public string paymentMethod { get; set; } //user input
 
     }

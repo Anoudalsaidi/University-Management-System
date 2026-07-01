@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace E_Commerce_System.Models
 {
-    internal class Review
+   public class Review
     {
+        public int reviewId { get; set; }
+
+        public string comment { get; set; }
     }
 }
