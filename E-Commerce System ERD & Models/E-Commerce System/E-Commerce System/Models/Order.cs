@@ -8,6 +8,7 @@ namespace E_Commerce_System.Models
 {
    public class Order
     {
-        public int
+        public int orderId { get; set; }
+        public string orderDate { get; set; }
     }
 }
