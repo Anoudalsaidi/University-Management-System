@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\anoud\\OneDrive\\Desktop\\BackEnd\\University Management System\\University Management System\\E-Commerce System ERD \u0026 Models\\E-Commerce System\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{AD1DF884-DA8D-41FA-AC1F-79917FDA8598}|E-Commerce System\\E-Commerce System.csproj|c:\\users\\anoud\\onedrive\\desktop\\backend\\university management system\\university management system\\e-commerce system erd \u0026 models\\e-commerce system\\e-commerce system\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD1DF884-DA8D-41FA-AC1F-79917FDA8598}|E-Commerce System\\E-Commerce System.csproj|solutionrelative:e-commerce system\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\anoud\\OneDrive\\Desktop\\BackEnd\\University Management System\\University Management System\\E-Commerce System ERD \u0026 Models\\E-Commerce System\\E-Commerce System\\Program.cs",
+              "RelativeDocumentMoniker": "E-Commerce System\\Program.cs",
+              "ToolTip": "C:\\Users\\anoud\\OneDrive\\Desktop\\BackEnd\\University Management System\\University Management System\\E-Commerce System ERD \u0026 Models\\E-Commerce System\\E-Commerce System\\Program.cs",
+              "RelativeToolTip": "E-Commerce System\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-01T07:48:48.369Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
