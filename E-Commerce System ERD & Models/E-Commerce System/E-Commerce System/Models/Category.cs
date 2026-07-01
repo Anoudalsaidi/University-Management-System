@@ -28,5 +28,8 @@ namespace E_Commerce_System.Models
         public string? imageUrl { get; set; } // user input
 
 
+        //Reationship with Product (one-many)
+        public List<Product> products { get; set; }
+
     }
 }

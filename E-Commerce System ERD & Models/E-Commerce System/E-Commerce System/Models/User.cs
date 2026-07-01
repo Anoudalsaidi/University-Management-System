@@ -54,5 +54,12 @@ namespace E_Commerce_System.Models
 
         public bool isActive { get; set; } = true; // Default value
 
+
+        //Reationship with Order (one-many)
+        public List<Order> Places { get; set; }
+
+        //Reationship with Review (one-many)
+        public List<Review> Writes { get; set; }
+
     }
 }

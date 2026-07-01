@@ -51,5 +51,20 @@ namespace E_Commerce_System.Models
         
         public bool isAvailable { get; set; } = true; //Default  value
 
+        //Reationship with Order (many-many)
+        public List<Order> contains { get; set; }
+
+        //Reationship with Review (one-many)
+        public List<Review> reviews { get; set; }
+
+        //Reationship with Category (many-one)
+        public Category category { get; set; }
+
+        //Reationship with OrderDetail (one-many)
+        public List<OrderDetail> orderDetails { get; set; }
+
+
+
+
     }
 }
