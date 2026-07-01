@@ -8,6 +8,6 @@ namespace E_Commerce_System.Models
 {
    public class Order
     {
-        public
+        public int
     }
 }
