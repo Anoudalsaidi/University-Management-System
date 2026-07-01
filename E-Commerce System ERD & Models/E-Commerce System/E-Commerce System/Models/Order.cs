@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace E_Commerce_System.Models
 {
-    internal class Order
+   public class Order
     {
     }
 }
