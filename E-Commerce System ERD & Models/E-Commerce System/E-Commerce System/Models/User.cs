@@ -52,7 +52,7 @@ namespace E_Commerce_System.Models
         public DateTime registrationDate { get; set; } // user input
 
 
-        public bool isActive { get; set; } = true; // Default valueh
+        public bool isActive { get; set; } = true; // Default value
 
     }
 }
